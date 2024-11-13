@@ -24,7 +24,7 @@ function App() {
           </div>
         </div>
 
-        <div className="button-area">
+        <div className="btn-area">
           <button className={`secondary-btn ${isCompleteScreen === false && 'active'}`} onClick={()=>setIsCompleteScreen(false)}>Todo</button>
           <button className={`secondary-btn ${isCompleteScreen === true && 'active'}`} onClick={()=>setIsCompleteScreen(true)}>Completed</button>
         </div>
