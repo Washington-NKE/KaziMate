@@ -93,7 +93,7 @@ h1{
 .todo-list-item{
   background-color: #414848;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 25px;
   padding-bottom: 10px;
@@ -133,4 +133,27 @@ h1{
 
 .check-icon:hover{
   color: rgb(4, 196, 106);
+}
+
+.edit-wrapper{
+  background-color: #414848;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-wrapper input,
+.edit-wrapper textarea{
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.edit-wrapper .primary-btn{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 16px;
+  width: fit-content;
 }
