@@ -157,3 +157,28 @@ h1{
   font-size: 16px;
   width: fit-content;
 }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+  .todo-wrapper {
+    width: 100%; /* Full width on small screens */
+    padding: 5%;
+  }
+
+  .todo-input-item input {
+    width: 100%; /* Full width on mobile */
+  }
+
+  .todo-list-item {
+    flex-direction: column; /* Stack items */
+    align-items: flex-start;
+  }
+
+  .primary-btn {
+    width: 100%; /* Full width button on mobile */
+  }
+
+  .icon, .check-icon {
+    font-size: 20px; /* Smaller icons for mobile */
+  }
+}
